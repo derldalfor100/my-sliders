@@ -1,0 +1,34 @@
+nav {
+    height: 100%;
+    /*
+    margin-bottom: 10%;
+    padding-bottom: 20%;*/
+}
+
+#button-basic{
+    border: 0;
+    background:none!important;
+    
+    border:none; 
+    padding:0!important;
+    
+    font: inherit;
+    cursor: pointer;
+}
+
+#button-basic:hover{
+    color: rgba(95, 16, 16, 1);
+}
+
+#button-basic:focus{
+    outline-style: none;
+    color: rgba(95, 16, 16, 1);
+}
+
+#link1 {  
+   margin-right: 7px;
+}
+
+#link0 {
+   margin-right: 7px;
+}
