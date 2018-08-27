@@ -11,6 +11,8 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { FormsModule } from '@angular/forms';
+import { Video1Component } from '../video1/video1.component';
 
 const appRoutes: Routes = [
     {
@@ -27,7 +29,8 @@ const appRoutes: Routes = [
    declarations: [
       AppComponent,
       BoxComponent,
-      Nav1Component
+      Nav1Component,
+      Video1Component,
    ],
    imports: [
       BrowserModule,
@@ -36,6 +39,7 @@ const appRoutes: Routes = [
       TooltipModule.forRoot(),
       ModalModule.forRoot(),
       CollapseModule.forRoot(),
+      FormsModule,
    ],
    providers: [],
    bootstrap: [

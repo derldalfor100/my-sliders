@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-nav1',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav1.component.css']
 })
 export class Nav1Component implements OnInit {
+  color1:string= "";
 
   items: string[] = [
     'The first choice!',
@@ -29,6 +30,17 @@ export class Nav1Component implements OnInit {
 
   ngOnInit() {
     this.isCollapsed = true;
+  }
+
+  check(){
+    return this.isCollapsed;
+  }
+
+  @HostListener('window:resize') onResize() {
+    // trigger the function using a listener which listen to the component's host
+    // specifically -> when we changed the window size
+    if (window.innerWidth > 1000)
+      this.isCollapsed = true;
   }
 
 }

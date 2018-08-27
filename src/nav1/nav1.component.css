@@ -1,9 +1,7 @@
-nav {
+.navbar {
     height: 100%;
-    /*
-    margin-bottom: 10%;
-    padding-bottom: 20%;*/
 }
+
 
 #button-basic{
     border: 0;
