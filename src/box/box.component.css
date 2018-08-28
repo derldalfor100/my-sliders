@@ -1,6 +1,7 @@
 #perspective{
     perspective:450px;
     -webkit-perspective:450px;
+    margin-bottom: 150px;
 }
 .rotate {
             margin: 60px auto;

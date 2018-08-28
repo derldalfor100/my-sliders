@@ -13,6 +13,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { FormsModule } from '@angular/forms';
 import { Video1Component } from '../video1/video1.component';
+import { FooterComponent } from '../footer/footer.component';
 
 const appRoutes: Routes = [
     {
@@ -31,6 +32,7 @@ const appRoutes: Routes = [
       BoxComponent,
       Nav1Component,
       Video1Component,
+      FooterComponent,
    ],
    imports: [
       BrowserModule,
