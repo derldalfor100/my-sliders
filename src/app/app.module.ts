@@ -14,6 +14,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { FormsModule } from '@angular/forms';
 import { Video1Component } from '../video1/video1.component';
 import { FooterComponent } from '../footer/footer.component';
+import { Flip1Component } from '../flip1/flip1.component';
 
 const appRoutes: Routes = [
     {
@@ -33,6 +34,7 @@ const appRoutes: Routes = [
       Nav1Component,
       Video1Component,
       FooterComponent,
+      Flip1Component,
    ],
    imports: [
       BrowserModule,
